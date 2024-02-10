@@ -38,6 +38,7 @@ dependencies:
   curved_navigation_bar: ^1.0.3
   flutter_screenutil: ^5.8.4
   intl: ^0.18.1
+  bloc: ^8.1.2
 
 dev_dependencies:
   flutter_test:

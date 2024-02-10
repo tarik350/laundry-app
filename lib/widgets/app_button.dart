@@ -23,14 +23,7 @@ class AppButton extends StatelessWidget {
         decoration: BoxDecoration(
           color: getButtonColor(type),
           borderRadius: BorderRadius.circular(8.0),
-          boxShadow: [
-            BoxShadow(
-              color: Color.fromRGBO(169, 176, 185, 0.42),
-              spreadRadius: 0,
-              blurRadius: 8.0,
-              offset: Offset(0, 2),
-            )
-          ],
+          boxShadow: [],
         ),
         child: Center(
           child: Text(
@@ -63,7 +56,7 @@ Color getTextColor(ButtonType type) {
     case ButtonType.PLAIN:
       return Constants.primaryColor;
     case ButtonType.PRIMARY:
-      return Colors.white;
+      return Constants.scaffoldBackgroundColor;
     default:
       return Colors.white;
   }

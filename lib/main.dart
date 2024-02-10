@@ -4,7 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:laundryapp/pages/GradientBackground.dart';
+import 'package:laundryapp/models/order.dart';
+import 'package:laundryapp/pages/create%20order/order_slider.dart';
+import 'package:laundryapp/pages/gradient_background.dart';
 import 'package:laundryapp/pages/create%20order/CaruselOne.dart';
 import 'package:laundryapp/pages/dashboard.dart';
 import 'package:laundryapp/pages/home.dart';
@@ -35,7 +37,9 @@ class MyApp extends StatelessWidget {
             visualDensity: VisualDensity.adaptivePlatformDensity,
             textTheme: GoogleFonts.poppinsTextTheme(),
           ),
-          home: GradientBackGround(),
+          home: GradientBackGround(
+            child: Login(),
+          ),
           // initialRoute: "/",
           onGenerateRoute: _onGenerateRoute,
         );

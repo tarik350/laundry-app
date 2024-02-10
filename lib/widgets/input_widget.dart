@@ -22,7 +22,10 @@ class InputWidget extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(this.topLabel),
+        Text(
+          this.topLabel,
+          style: TextStyle(color: Colors.white),
+        ),
         SizedBox(height: 5.0),
         Container(
           height: ScreenUtil().setHeight(height),
