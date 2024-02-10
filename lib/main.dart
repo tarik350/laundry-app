@@ -8,7 +8,7 @@ import 'package:laundryapp/models/order.dart';
 import 'package:laundryapp/pages/create%20order/order_slider.dart';
 import 'package:laundryapp/pages/gradient_background.dart';
 import 'package:laundryapp/pages/create%20order/CaruselOne.dart';
-import 'package:laundryapp/pages/dashboard.dart';
+import 'package:laundryapp/pages/dashboard/dashboard.dart';
 import 'package:laundryapp/pages/home.dart';
 import 'package:laundryapp/pages/login.dart';
 import 'package:laundryapp/pages/single_order.dart';
@@ -37,9 +37,7 @@ class MyApp extends StatelessWidget {
             visualDensity: VisualDensity.adaptivePlatformDensity,
             textTheme: GoogleFonts.poppinsTextTheme(),
           ),
-          home: GradientBackGround(
-            child: Login(),
-          ),
+          home: Dashboard(),
           // initialRoute: "/",
           onGenerateRoute: _onGenerateRoute,
         );

@@ -64,7 +64,10 @@ class _GradientBackGroundState extends State<GradientBackGround> {
                 child: Container(
                   color: Colors.transparent,
                   child: SafeArea(
-                    child: widget.child,
+                    child: Container(
+                      margin: const EdgeInsets.symmetric(horizontal: 20),
+                      child: widget.child,
+                    ),
                   ),
                 ),
               ),
