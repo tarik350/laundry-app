@@ -7,7 +7,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:laundryapp/models/order.dart';
 import 'package:laundryapp/pages/create%20order/order_slider.dart';
 import 'package:laundryapp/pages/gradient_background.dart';
-import 'package:laundryapp/pages/create%20order/CaruselOne.dart';
+import 'package:laundryapp/pages/create%20order/carausel%20items/CaruselOne.dart';
 import 'package:laundryapp/pages/dashboard/dashboard.dart';
 import 'package:laundryapp/pages/home.dart';
 import 'package:laundryapp/pages/login.dart';

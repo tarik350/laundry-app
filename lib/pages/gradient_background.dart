@@ -2,7 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/rendering.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:laundryapp/pages/create%20order/CaruselOne.dart';
+import 'package:laundryapp/pages/create%20order/carausel%20items/CaruselOne.dart';
 import 'package:flutter/material.dart';
 import 'package:laundryapp/utils/constants.dart';
 
